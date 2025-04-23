@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malya Kapoor | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="desktop-nav">
+    <div class="logo">Malya Kapoor</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <nav id="hamburger-nav">
+    <div class="logo">Malya Kapoor</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./Assets/Profile Picture.jpg"" alt="Profile Picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Malya Kapoor</h1>
+      <p class="section__text__p2">BCA Student | Aspiring Business Analyst | Product Manager | Data Analyst</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1c5VS7VuKdGI745EJOIwigocbgGWMh85H/view')">Download CV</button>
+        <button class="btn btn-color-2" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./Assets/LINKED IN.jpg" alt="LinkedIn" class="social-icon" onclick="location.href='https://www.linkedin.com/in/malyakapoor'" />
+        <img src="./Assets/GITHUB.jpg" alt="GitHub" class="social-icon" onclick="location.href='https://github.com/MalyaKapoor'" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <p class="section__text__p1">Get to know more</p>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="details-container">
+          <h1>Education</h1>
+           <p><strong> AI/ML Credit-Based Program</strong> Indian Institute of Technology (IIT) Guwahati + Masai School (2025)<br></p>
+
+          <p><strong>BCA </strong>  GGSIPU (2022 to 2025) <br> CGPA: 8.8/10 ,Rank 1 in 1st and 2nd Semester, Rank 2 in 3rd Semester</p>
+          <p><strong>12th </strong>  Vivekanand Public School (2022) <br> 93%</p>
+          <p><strong>10th </strong>  Dayanand Public School (2020) <br> 75%</p>
+        </div>
+        <div class="text-container">
+          <p>
+            Top-performing BCA student at GGSIPU with strong foundations in Product Management, Business Analysis,
+            and Data Analytics.Skilled in Python, SQL, Excel, Power BI, and libraries like Pandas and Seaborn.
+            Enrolled in IIT Guwahati's AI/ML program. 
+            Passionate about using data and agile methodologies to build innovative, 
+            user-centered digital solutions.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+     <section id="skills" style="padding: 40px; font-family: Arial, sans-serif; background-color: #f9f9f9;">
+  <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 30px;">Skills</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+    
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Programming & Analytics</h3>
+      <ul>
+        <li>Python, SQL, MySQL</li>
+        <li>NumPy, Pandas, Seaborn, Matplotlib</li>
+        <li>OpenCV</li>
+      </ul>
+    </div>
+
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Data Tools</h3>
+      <ul>
+        <li>Excel, Power BI, DAX</li>
+        <li>Google Analytics</li>
+      </ul>
+    </div>
+
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Web Development</h3>
+      <ul>
+        <li>HTML, CSS, JavaScript, PHP</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Product & Design</h3>
+      <ul>
+        <li>Figma, KPI Implementation</li>
+        <li>Product Management, GenAI</li>
+      </ul>
+    </div>
+
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Business Skills</h3>
+      <ul>
+        <li>Market Research, Business Analysis</li>
+        <li>SEO, Digital Marketing</li>
+      </ul>
+    </div>
+
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Methodologies & Tools</h3>
+      <ul>
+        <li>Agile, Scrum</li>
+        <li>Lucidchart, Sprint Planning</li>
+      </ul>
+    </div>
+
+    <div style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Communication, Leadership, Teamwork</li>
+        <li>Time Management, Critical Thinking</li>
+        <li>Attention to Detail, Adaptability</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Projects Section -->
+ <section id="projects" style="padding: 40px;">
+  <h1 style="text-align: center; font-size: 2.5em;">Projects</h1>
+ 
+    <div class="project-container">
+      <div class="project">
+        <h2><a href="https://colab.research.google.com/drive/1ilv3H9g3uJ5JZkXgACIcI6wUQpD2Q_Ao?usp=sharing" target="_blank">Data analysis using Python</a></h2>
+        <p>Analyzed trends using NumPy, Pandas, Seaborn, and Matplotlib for insights</p>
+      </div>
+      <div class="project">
+        <h2><a href="./Assets/PROJECT 3.jpg" target="_blank">Annual Report Using Excel</a></h2>
+        <p>Created a data-driven report visualizing yearly performance using Excel charts and functions</p>
+      </div>
+      <div class="project">
+        <h2><a href="./Assets/salesdashboard.jpg" target="_blank">Sales Dashboard using Power BI</a></h2>
+        <p>Built a dynamic dashboard using DAX and Power BI, helping stakeholders visualize key trends</p>
+      </div>
+      <div class="project">
+        <h2><a href="./Assets/PROJECT 1.jpg">Dashboard for HR Analytics</a></h2>
+        <p>Designed a Power BI dashboard with actionable HR KPIs</p>
+      </div>
+      <div class="project">
+        <h2><a href="./Assets/PROJECT 2.jpg">
+        Face Detection Using ML
+       <a href="https://colab.research.google.com/drive/1mv59iQM0ijeFYfxvZnCLmacvqIag73pJ"</a></h2>
+        <p>collab link</p></a>
+        <p> Developed using Python and OpenCv
+      </div>
+      <div class="project">
+        <h2><a href="" target="_blank">SQL Project on Music Store</a></h2>
+        <p>Used advanced queries and created reporting dashboard.</p>
+      </div>
+      <div class="project">
+        <h2><a href="file:///C:/Users/HP/Desktop/ecommercewebsite/index.php.html" target="_blank">Ecommerce Website</a></h2>
+        <p>Developed a responsive frontend using HTML, CSS, and JavaScript
+</p>
+      </div>
+      <div class="project">
+        <h2><a href="https://www.figma.com/proto/ct9YQq8ShULOeGdnyjqfOZ/Untitled?node-id=1-122&p=f&t=d1rQcaWtSUZnv7fZ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A122">Can Slider (Figma)</a></h2>
+        <p>Interactive UI Prototype made in Figma.</p>
+      </div>
+      <div class="project">
+        <h2><a href="https://www.figma.com/proto/hQl5uItiPJga5Ik3hcfMpS/cafe-menu--Community-?node-id=1-2&starting-point-node-id=1%3A2" target="_blank">Cafe Website (Figma)</a></h2>
+        <p>Restaurant UI and menu layout in Figma.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+<section id="certifications" style="padding: 40px;">
+  <h1 style="text-align: center; font-size: 2.5em;">Certifications</h1>
+ 
+    <ul>
+      <br><h3> Product and Project Management </h3>
+      <li><a href="./Assets/CIRTIFICATE 4.jpg" >Product Management Job Simulation - Forage (Apr 2025)</a></li>
+      <li><a href="https://www.life-global.org/certificate/355c0b58-2905-48f7-91b5-6fabb5cbd14f" target="_blank">Agile Project Management Foundation - HP (Apr 2025)</a></li>
+      <li><a href="./Assets/CIRTIFICATE 2.jpg"  target="_blank">IOT Product Management - Reliance Foundation (Feb 2025)</a></li>
+      <br><h3> Analytics and Data Science </h3>
+      <li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase%20Corporate/XiuvjcwqWRqH9oy38_JPMorgan%20Chase%20&%20Co._2ZYudeSmDHgsaZuLK_1723955264807_completion_certificate.pdf" target="_blank">Excel Skills Job Simulation - JPMorgan Chase & Co. (Aug 2024)</a></li>
+      <li><a href="https://www.coursera.org/account/accomplishments/verify/ZZTT0VVVZY96" target="_blank">Business Analysis and Process Management - Coursera (Aug 2024)</a></li>
+      <li><a href="https://moonshot.scaler.com/s/sl/Zmx_gBN3H6?_gl=1*1etmvot*_ga*MTg0MTA0MzM4OC4xNjkzNTgzODk2*_ga_53S71ZZG1X*MTY5MzgyMDAyNC41LjEuMTY5MzgyMDEwOC4wLjAuMA">Data Science - Scaler (Sep-Oct 2023)</a></li>
+      <li><a href="./Assets/CIRTIFICATE 5.jpg" target="_blank" target="_blank">Google Analytics for Beginners - Google (May 2024)</a></li>
+      <br><h3> Marketing and Business</h3>
+      <li><a href="https://cert.diceid.com/cid/Gx1QLlnTH9" target="_blank">Digital Marketing - YHills (Mar 2025)</a></li>
+      <li><a href="https://www.life-global.org/certificate/7fbd3c47-aaf2-4ee9-8672-bfb7aa38027e">Starting a small business - HP (April 2025)</a></li>
+      <br><h3> Programming</h3>
+      <li><a href="https://www.mygreatlearning.com/certificate/KKSGCGAM">Introduction to Programming Using Python - Great Learning (Sep 2022)</a></li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h1 class="title">Contact </h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./Assets/MAIL.jpg" alt="Email icon" class="icon contact-icon" />
+        <p><a href="mailto:malyakapoor69@gmail.com">malyakapoor69@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./Assets/PHONE.jpg" alt="Phone icon" class="icon contact-icon" />
+        <p><a href="tel:+918920153272">+91 8920153272</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./Assets/LINKED IN.jpg" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/malyakapoor">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
